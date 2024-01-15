@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Instrument Serif", serif;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('https://uswalldecor.com/cdn/shop/files/RMK12279M.jpg?v=1695064926');
+    background-size: 100% 100%;
+}
+
+#mid-part {
+    min-width: 30vw;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 10px 20px #0000008c;
+}
+
+h1 {
+    color: #7f5a3a;
+    text-shadow: 0 3px 0 #4b3018;
+    font-size: 12vh;
+}
+
+#get-quote {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    color: #000000;
+    font-family: harry_p;
+    font-size: 5vh;
+    background-color: #ffdc4f;
+    box-shadow: 0 9px #b79b00;
+}
+
+#get-quote:hover {
+    transition-duration: 0.2s;
+    transform: rotate(-10deg);
+}
+
+#get-quote:active {
+    color: #ffdc4f;
+    background-color: #8b1717;
+    box-shadow: 0 3px #4f0909;
+    transform: translateY(10px);
+}
+
+.container img {
+    position: absolute;
+}
+
+.object {
+    width: 8vw;
+    position: relative;
+}
+
+#img-1 {
+    left: 100px;
+    bottom: 220px;
+}
+
+#img-2 {
+    left: 160px;
+    top: 60px;
+}
+
+#img-3 {
+    right: 400px;
+    bottom: 250px;
+}
+
+#img-4 {
+    top: 180px;
+    right: 120px;
+}
+
+#img-5 {
+    bottom:250px;
+    right: 300px;
+}
+
+#quid-1 {
+    width: 8vw;
+    left: 100px;
+    top: 200px;
+}
+
+#quid-2 {
+    right: 180px;
+    bottom: 100px;
+}
+
+#quid-3 {
+    width: 4vw;
+    right: 80px;
+    bottom: 250px;
+}
+
+#quid-4 {
+    width: 10vw;
+    right: 140px;
+}
